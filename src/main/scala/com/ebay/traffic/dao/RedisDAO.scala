@@ -21,7 +21,6 @@ class RedisDAO {
 
   /**
     * Get a jedis connection from Pool
-    *
     * @return Jedis connection
     */
   def getJedis: Option[Jedis] = Try {
