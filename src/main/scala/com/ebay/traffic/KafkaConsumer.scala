@@ -79,6 +79,7 @@ class KafkaConsumerA(queue: LinkedBlockingDeque[String]) {
       //jedis.get.set(message.message,message.message)
       //print(message.message)
       // will block the current thread when queue is full
+      //modify a line
       queue.put(message.message)
     })))
   }
